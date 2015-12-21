@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="50015" language="TH">
+        <isbn>0-85131-041-9</isbn>
+        <publishDate>12-21-2015</regDate>
+        <title>Android Tutorial</title>
+        <publisher country="THA">Siam</publisher>
+        <price>400</price>
+        <authors>
+            <author>Tawit Kalayanamit</author>
+        </authors>
+    </book>
+    <book id="50016" language="EN">
+        <isbn>0-684-84328-5</isbn>
+        <publishDate>12-05-2015</regDate>
+        <title>SAX Parser</title>
+        <publisher country="USA">Pearson</publisher>
+        <price>200</price>
+        <authors>
+            <author>Author1</author>
+            <author>Author2</author>
+            <author>Author3</author>
+        </authors>
+    </book>
+</catalog>
