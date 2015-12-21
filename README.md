@@ -7,13 +7,13 @@ SAX (Simple API for XML) is an event-driven online algorithm for parsing XML doc
 >
 
 #Usages
-```
+```JAVA
  BookParser bookParser = new BookParser("example.xml");
  List<Book> books = bookParser.getBooks();
 ```
 
 #Sample XML Document 
-```
+```XML
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog>
     <book id="50015" language="TH">
