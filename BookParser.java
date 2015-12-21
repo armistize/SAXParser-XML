@@ -36,7 +36,7 @@ public class BookParser extends DefaultHandler {
 	}
 
 	@Override
-	public void endElement(String s, String s1, String element)
+	public void endElement(String uri, String localName, String element)
 			throws SAXException {
 		if (element.equals(Constants.BOOK)) {
 			books.add(book);
