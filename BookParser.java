@@ -62,6 +62,10 @@ public class BookParser extends DefaultHandler {
 		}
 	}
 
+	public List<Book> getBooks() {
+		return books;
+	}
+
 	private void parseXMLDocument() {
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 		try {
